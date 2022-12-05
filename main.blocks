@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="1%|V:)w)md!sU(`5nU+V">distance_to_object</variable></variables><block type="pxt-on-start" id="^o!}*[7XCuDwfm1+[L2}" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="r`wy,x*HM#sowlv3COv,"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_pause" id="1sxyq_JUg?9?gn*?|D$K"><value name="pause"><shadow type="timePicker" id="-bJ~9Ag*VeTGYo89K-Or"><field name="ms">500</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="t3{k09E=%xY,J@8]N%52" x="12" y="398"><statement name="HANDLER"><block type="variables_set" id="$vt]-RJLi+ig$^:`*%Oo"><field name="VAR" id="1%|V:)w)md!sU(`5nU+V">distance_to_object</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sonar_ping" id="(19j+=c;kf3,wbl/tH+l"><field name="trig">DigitalPin.P1</field><field name="echo">DigitalPin.P2</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="device_show_number" id="iMh$5%`_s_j_r|AyU4$x"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=",faBN+[6nIAO(F0j(E$s"><field name="VAR" id="1%|V:)w)md!sU(`5nU+V">distance_to_object</field></block></value></block></next></block></statement></block></xml>
